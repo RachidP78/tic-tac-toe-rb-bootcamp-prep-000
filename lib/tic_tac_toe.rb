@@ -46,8 +46,6 @@ def turn(board)
 end
 
 # Define your play method below
-
-
 def play(board)
   until over?(board)
     current_player(board)
